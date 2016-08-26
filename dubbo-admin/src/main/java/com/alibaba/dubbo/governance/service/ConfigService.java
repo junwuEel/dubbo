@@ -28,7 +28,7 @@ import com.alibaba.dubbo.registry.common.domain.Config;
  */
 public interface ConfigService {
 
-	void update(List<Config> configs);
+	void update(List<Config> configsd);
 
 	Map<String, String> findAllConfigsMap();
 
